@@ -6,7 +6,7 @@
 /*   By: aribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/28 15:08:37 by aribeiro          #+#    #+#             */
-/*   Updated: 2016/01/06 13:41:22 by aribeiro         ###   ########.fr       */
+/*   Updated: 2016/01/07 13:39:57 by aribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,8 @@
 
 char	*ft_memalloc_template(char *n, size_t size, size_t x)
 {
-	int		i;
 	size_t	f;
 
-	i = 0;
 	f = x - 1;
 	n = (char *)malloc(sizeof(char) * size);
 	if (n != NULL)

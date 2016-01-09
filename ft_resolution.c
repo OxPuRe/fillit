@@ -6,7 +6,7 @@
 /*   By: aribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/19 13:39:14 by aribeiro          #+#    #+#             */
-/*   Updated: 2016/01/06 16:17:17 by aribeiro         ###   ########.fr       */
+/*   Updated: 2016/01/07 13:39:34 by aribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,9 +76,6 @@ void			ft_put(int **tab, t_tetri *s)
 
 static void		ft_put_loop(int **tab, t_tetri *s)
 {
-	size_t k;
-
-	k = 0;
 	s->j = 0;
 	while (s->nb_tetri != 0 && s->n != NULL)
 	{

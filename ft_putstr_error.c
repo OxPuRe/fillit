@@ -6,11 +6,16 @@
 /*   By: aribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/17 12:43:22 by aribeiro          #+#    #+#             */
-/*   Updated: 2016/01/06 19:17:20 by aribeiro         ###   ########.fr       */
+/*   Updated: 2016/01/07 13:25:54 by aribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
+
+/*
+** for debug : 2 = error fd; 3 = open() failed; 4 = read() failed;
+** 5 = malloc failed; 6 = close() failed
+*/
 
 int		ft_putstr_error(int e)
 {
